@@ -1,23 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <title> ChefUp! - Revolucionando o sabor</title>
-        <link rel="stylesheet" href="style.css">
-        <script defer src="script.js"></script>
-    </head>
-    
-    <body>
-        <!-- Cabecalho -->
-         <header>
-            <nav class="navbar">
-                <img src="img/logo.png" alt="ChefUp Logo" class="logo">
-                <ul class="nav-links">
-                    <li><a href="#home">Início</a></li>
-                    <li></li>
-                </ul>
-            </nav>
-         </header>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chef UP - Revolucionando o Sabor</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <nav class="navbar">
+      <img src="img/logo.png" alt="Chef UP Logo" class="logo">
+      <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button class="btn">Peça Agora</button>
+    </nav>
+  </header>
+
+  <!-- Seção Home -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Chef UP</h1>
+      <p>Sabores incríveis, inovação e qualidade em cada prato.</p>
+      <button class="btn">Conheça o Cardápio</button>
+    </div>
+  </section>
+
+  <!-- Seção Sobre -->
+  <section id="sobre" class="sobre">
+    <h2>Sobre o Projeto</h2>
+    <p>O Chef UP é um projeto que une gastronomia, tecnologia e criatividade para oferecer experiências únicas. Nosso foco é elevar o padrão da culinária moderna, com receitas exclusivas e preparo inteligente.</p>
+  </section>
+
+  <!-- Seção Cardápio -->
+  <section id="cardapio" class="cardapio">
+    <h2>Nosso Cardápio</h2>
+    <div class="pratos">
+      <div class="prato">
+        <img src="img/prato1.jpg" alt="Prato 1">
+        <h3>Risoto Gourmet</h3>
+        <p>Um toque de sofisticação e sabor.</p>
+      </div>
+      <div class="prato">
+        <img src="img/prato2.jpg" alt="Prato 2">
+        <h3>Hambúrguer Artesanal</h3>
+        <p>Suculento, artesanal e irresistível.</p>
+      </div>
+      <div class="prato">
+        <img src="img/prato3.jpg" alt="Prato 3">
+        <h3>Salada Chef UP</h3>
+        <p>Leve, fresca e cheia de energia.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contato" class="contato">
+    <h2>Fale Conosco</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>© 2025 Chef UP | Todos os direitos reservados.</p>
+  </footer>
+
+</body>
 </html>
